@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advice generator app</title>
+    <link rel="stylesheet" href="src/css/style.min.css" />
+    <link
+      rel="shortcut icon"
+      href="src/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main class="card-advice">
+      <header class="card-advice__header">
+        <h2>advice #<span id="advice-number">117</span></h2>
+      </header>
+      <div class="card-advice__content">
+        <p id="advice"></p>
+      </div>
+      <div class="card-advice__divisor-img">
+        <img src="src/images/pattern-divider-desktop.svg" alt="" />
+      </div>
+      <button aria-label="Ramdom advice" class="card-advice__button">
+        <img src="src/images/icon-dice.svg" alt="Dado" />
+      </button>
+    </main>
+
+    <script src="src/js/app.js"></script>
+  </body>
+</html>

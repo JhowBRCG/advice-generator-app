@@ -1,0 +1,61 @@
+@use "variables";
+
+.card-advice {
+  background: variables.$advice-card-color;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.336);
+  width: fit-content;
+  padding: 3rem 3rem 5rem 3rem;
+  border-radius: variables.$radius;
+  max-width: 450px;
+  position: relative;
+  margin: 30vh auto auto auto;
+
+  &__header {
+    margin-bottom: 1.5rem;
+
+    h2 {
+      color: variables.$advice-dice-color;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+  }
+
+  &__content {
+    p {
+      color: variables.$text-color;
+      font-size: 2.1rem;
+      text-align: center;
+    }
+  }
+
+  &__divisor-img {
+    margin-top: 3rem;
+  }
+
+  &__button {
+    padding: 1.3rem;
+    background: variables.$advice-dice-color;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    inset: 0;
+    margin: auto auto 0 auto;
+    transform: translateY(20px);
+
+    &:hover {
+      box-shadow: 1px 0 10px variables.$advice-dice-color;
+    }
+
+    img {
+      display: block;
+      transition: all 900ms ease;
+    }
+
+    &:hover img {
+      transform: rotate(360deg);
+    }
+  }
+}
