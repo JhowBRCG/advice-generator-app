@@ -9,6 +9,8 @@
 This is a project from [Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub) that generate a random advice when clicked on the dice button.
 I did this project using an API named [Advice Slip](https://api.adviceslip.com/) that gives to me the random advices datas.
 
+The project is also responsive for the most of the devices.
+
 <br>
 
 <br>
