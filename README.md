@@ -25,7 +25,7 @@ The project is also responsive for the most of the devices.
 
 <br>
 
-<h3 align = 'center'><a href = 'https://jhowbrcg.github.io/article-preview-component/'>See the project</a></h3>
+<h3 align = 'center'><a href = 'https://jhowbrcg.github.io/advice-generator-app/'>See the project</a></h3>
 
 <div align= 'left'>
 
